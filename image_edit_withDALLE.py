@@ -2,7 +2,7 @@ import os
 import openai
 
 
-key= "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"
+key= OPENAI_API_KEY
 #openai.api_key = os.environ["OPENAI_API_KEY"]
 """openai.api_key = key
 res=openai.Image.create(
