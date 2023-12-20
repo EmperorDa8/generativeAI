@@ -6,7 +6,7 @@ key= OPENAI_API_KEY
 #openai.api_key = os.environ["OPENAI_API_KEY"]
 """openai.api_key = key
 res=openai.Image.create(
-  prompt="A cute baby sea otter",
+  prompt="A male lion in the arctic snow",
   n=2,
   size="1024x1024"
 )
